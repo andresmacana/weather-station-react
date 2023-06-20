@@ -20,7 +20,7 @@ const AppBody = () => {
       </div>
       <div className="weather-box">
         <div className="temp">
-          <h1 className="main-Temp">{temprature?.temp}</h1>
+          <h1 className="main-Temp">{temprature?.temp || ""}</h1>
           <small>
             Feels: {temprature?.feels_like}
             <br />
